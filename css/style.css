@@ -1,0 +1,139 @@
+* {
+  margin: 0, padding 0;
+}
+
+html {
+  font-family: sans-serif;
+  background-color: white;
+}
+
+p {
+  font-size: large;
+  text-align: center;
+}
+
+head {
+  margin: 0%;
+  background-color: rgb(67, 67, 67);
+}
+
+nav {
+  text-align: center;
+  background-color: rgb(67, 67, 67);
+  bottom: 2%;
+  padding-bottom: 2%;
+  user-select: none;
+}
+
+body {
+  margin: 0%;
+}
+
+nav a {
+  position: relative;
+  display: inline-block;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: white;
+  bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: normal;
+  font-size: x-large;
+}
+
+logo {
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  right: 30px;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: lightgrey;
+}
+
+a:active {
+  color: grey;
+}
+
+pglink a:link {
+  text-decoration: none;
+  color: black;
+}
+
+pglink a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+/* "Pateon" Link*/
+
+p patreon a:link {
+  text-decoration: underline;
+  color: rgb(249, 104, 84);
+}
+
+p patreon a:visited {
+  text-decoration: underline;
+  color: rgb(249, 104, 84);
+}
+
+p patreon a:hover {
+  text-decoration: underline;
+  color: rgb(194, 95, 75);
+}
+
+p patreon a:active {
+  text-decoration: underline;
+  color: rgb(136, 67, 53);
+}
+
+p1 {
+  display: block;
+  text-align: center;
+}
+
+s1 {
+  display: block;
+  text-align: center;
+  color: rgb(204, 204, 204);
+  font-size: small;
+}
+
+img {
+  display: block;
+  box-sizing: border-box;
+  padding-right: 0.6%;
+  margin-left: auto;
+  margin-right: auto;
+  user-select: none;
+}
+
+pglink {
+  display: block;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: smaller;
+  color: black;
+  user-select: none;
+}
+
+pglink a {
+  position: static;
+}
+
+pglink a:hover {
+  color: darkgrey;
+}
+
+pglink a:active {
+  color: grey;
+}

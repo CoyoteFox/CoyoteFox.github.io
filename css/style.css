@@ -65,6 +65,18 @@ a:active {
   color: grey;
 }
 
+pglink {
+  display: block;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: smaller;
+  color: black;
+  user-select: none;
+}
+
+pglink a {
+  position: static;
+}
 pglink a:link {
   text-decoration: none;
   color: black;
@@ -75,28 +87,13 @@ pglink a:visited {
   color: black;
 }
 
-/* "Pateon" Link*/
-
-p patreon a:link {
-  text-decoration: underline;
-  color: rgb(249, 104, 84);
+pglink a:hover {
+  color: darkgrey;
 }
 
-p patreon a:visited {
-  text-decoration: underline;
-  color: rgb(249, 104, 84);
+pglink a:active {
+  color: grey;
 }
-
-p patreon a:hover {
-  text-decoration: underline;
-  color: rgb(194, 95, 75);
-}
-
-p patreon a:active {
-  text-decoration: underline;
-  color: rgb(136, 67, 53);
-}
-
 p1 {
   display: block;
   text-align: center;
@@ -116,25 +113,4 @@ img {
   margin-left: auto;
   margin-right: auto;
   user-select: none;
-}
-
-pglink {
-  display: block;
-  text-align: center;
-  font-family: sans-serif;
-  font-size: smaller;
-  color: black;
-  user-select: none;
-}
-
-pglink a {
-  position: static;
-}
-
-pglink a:hover {
-  color: darkgrey;
-}
-
-pglink a:active {
-  color: grey;
 }

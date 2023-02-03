@@ -4,7 +4,7 @@
 
 html {
   font-family: sans-serif;
-  background-color: white;
+  background-color: rgb(240, 234, 238);
 }
 
 p {
@@ -14,12 +14,12 @@ p {
 
 head {
   margin: 0%;
-  background-color: rgb(67, 67, 67);
+  background-color: rgb(60, 5, 82);
 }
 
 nav {
   text-align: center;
-  background-color: rgb(67, 67, 67);
+  background-color: rgb(60, 5, 82);
   bottom: 2%;
   padding-bottom: 2%;
   user-select: none;
@@ -27,6 +27,7 @@ nav {
 
 body {
   margin: 0%;
+
 }
 
 nav a {
